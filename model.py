@@ -16,7 +16,6 @@ class WeatherNB:
         self.test_labels = None
         self.alpha = 1
         self.model = GaussianNB(var_smoothing=self.alpha)
-        self.model = MultinomialNB()
 
     def fit(self, features, labels):
         self.features = features

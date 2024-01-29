@@ -15,3 +15,4 @@ for col in to_keep[1:]:
 
 df.to_csv("weather.csv", index=False)
 print("done!")
+
